@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>DASQUIRE</title>
+        <link rel="icon" type="image/x-icon" href="/images/dasquirel1.png">
+    </head>
+    
+    <body>
+        <nav class="navbar-registrati">
+            <a href="/" class="nav-link"><h1>DASQUIRE</h1></a>
+        </nav>
+        <div class="container-registrati">
+            <img src="/images/dasquirel2.png">
+            <form class="form-registrazione" action="/registrati" method="post">
+                <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
+                <input type="text" placeholder="Nome" id="nome" name="nome" required>
+                <input type="text" placeholder="Cognome" id="cognome" name="cognome" required>
+                <input type="text" placeholder="Alias o nickname" id="alias-nickname" name="alias">
+                Data di nascita
+                <input type="date" id="data-nascita" name="dataNascita" required>
+                <input type="text" placeholder="Cofice Fiscale" id="codiceFiscale" name="codiceFiscale" required>
+                <input type="email" placeholder="i.e. coso@email.com" id="email1" name="email" required>
+                <input type="email" placeholder="i.e. coso@email.com" id="email2" required>
+                Almeno 8 cifre con maiuscole e minuscole
+                <input type="password" placeholder="Formula una password" id="pwd1" name="password" required>
+                <input type="password"placeholder="Riconferma la password" id="pwd2" required>
+                <button type="submit">Crea account</button>
+            </form>
+        </div>
+        
+    </body>
+</html>

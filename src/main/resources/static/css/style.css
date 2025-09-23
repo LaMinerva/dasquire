@@ -1,0 +1,157 @@
+/*------------------------------------------------------INDEX------------------------------------------------------*/
+
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*---------Navbar---------*/
+.navbar-index{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(56, 142, 60, 1) ;
+    padding: 1rem;
+}
+.navbar-index a{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+/*---------Img---------*/
+.img-index{
+   display: flex;
+   justify-content: center;
+}
+.img-index img{
+    width: 29%;
+    height: auto;
+}
+
+/*---------Btn---------*/
+.btn-accedi-registrati{
+    display: flex;
+    justify-content: center;
+    gap: 82px;
+}
+.btn-accedi-registrati button{
+    border-radius: 30px;
+    padding: 1rem;
+    width: 19%;
+    background-color: rgba(56, 142, 60);
+    border-color: rgba(56, 142, 60);
+    font-size: 190%;
+    color:white;
+    border: none;         
+    box-shadow: none;
+}
+
+/*---------Titoli---------*/
+.container-titoli{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -1%;
+}
+.container-titoli h1{
+    font-weight: bold;
+    font-size: 85px;
+}
+.container-titoli h4{
+    margin-top: -4%;
+    color: rgba(56, 142, 60);
+}
+
+
+
+/*------------------------------------------------------REGISTRATI------------------------------------------------------*/
+
+/*---------Navbar---------*/
+.navbar-registrati{
+    background-color: rgba(56, 142, 60, 1);
+    padding: 0.1rem;
+}
+.navbar-registrati h1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+.navbar-registrati a{
+    text-decoration: none;
+}
+
+/*---------Img & Form---------*/
+.container-registrati {
+    display: flex;
+    flex-direction: row;
+}
+.container-registrati img{
+    width: 29%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.form-registrazione{
+    display: flex;
+    flex-direction:column;
+    margin-top: 6%;
+    margin-left: 8%;
+    gap: 15px;
+}
+
+
+/*------------------------------------------------------ACCEDI------------------------------------------------------*/
+
+/*---------Navbar---------*/
+.navbar-accedi{
+    background-color: rgba(56, 142, 60, 1);
+    padding: 0.1rem;
+}
+.navbar-accedi h1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+.navbar-accedi a{
+    text-decoration: none;
+}
+
+/*---------Img & Form---------*/
+.container-accedi {
+    display: flex;
+    flex-direction: row;
+}
+.container-accedi img{
+    width: 29%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.form-accedi{
+    margin-left: 50%;
+    margin-top: -21%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+    gap: 25px;
+}
+
+.form-accedi input{
+    border-radius: 30px;
+    border-color: none ;
+    padding: 1rem;
+}
+
+.form-accedi button{
+    width: 85px;
+    height: auto;
+    display: grid;
+    margin-left: 33%;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+

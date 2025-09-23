@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>DASQUIRE - Dashboard</title>
+  </head>
+  <body>
+    <nav class="navbar-accedi">
+      <a href="/" class="nav-link"><h1>DASQUIRE</h1></a>
+      <a href="/logout">Logout</a>
+    </nav>
+    <h2 th:text="'Benvenuto, ' + ${user.nome} + '!'">Benvenuto</h2>
+  </body>
+</html>
