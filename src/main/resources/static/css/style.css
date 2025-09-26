@@ -154,4 +154,59 @@ body{
     border-radius: 30px;
 }
 
+/*------------------------------------------------------DASHBOARD------------------------------------------------------*/
 
+/*---------Navbar---------*/
+.navbar-dashboard{
+    background-color: rgba(56, 142, 60, 1);
+    padding: 0.1rem;
+}
+.navbar-dashboard h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*---------Aside-bar---------*/
+.aside-bar-dashboard a {
+    text-decoration: none;
+}
+
+/*---------1st article---------*/
+.cripting-container{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.cript-area{
+    width: 360px;
+    height: 180px;
+    background-color: black;
+    color: white;
+}
+
+.colore-svg-a{
+    fill: red;
+}
+
+.calcola{
+    background-color: rgba(56, 142, 60, 1);
+    border-color: transparent;
+}
+
+/*---------Lista spese---------*/
+.lista-spese{
+    display: flex;
+    justify-content: right;
+    margin-top: -20%;
+    margin-left: -25%;
+    background-color: orange;
+    margin-right: 1%;
+    margin-left: 67%;
+}
+
+.lista-spese ul li{
+    list-style: none;
+    background-color: red;
+}
