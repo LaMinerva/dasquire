@@ -141,8 +141,9 @@ body{
 
 .form-accedi input{
     border-radius: 30px;
-    border-color: none ;
+    border-color: black;
     padding: 1rem;
+
 }
 
 .form-accedi button{
@@ -177,6 +178,8 @@ body{
     display: flex;
     background-color: aqua;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cript-area{
@@ -184,16 +187,21 @@ body{
     height: 180px;
     background-color: black;
     color: white;
-}
-
-.colore-svg-a{
-    fill: red;
+    resize: none;
+    border: rgba(56, 142, 60, 1);
 }
 
 .calcola{
     background-color: rgba(56, 142, 60, 1);
     border-color: transparent;
+
 }
+
+.cripting-container .calcola{
+    width: 364.2px;
+}
+
+
 
 /*---------Lista spese---------*/
 .lista-spese{
